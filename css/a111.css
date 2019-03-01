@@ -1,0 +1,33 @@
+.con{
+	width:400px;
+	height:300px;
+	background:pink;
+	margin:0 auto;
+}
+.con ul{
+	width:400px;
+	height:20px;
+	line-height:20px;
+	
+}
+.con ul li{
+	font-size:16px;
+	float:left;
+	padding:0 50px;
+}
+.con ul .cons1{
+	background:blue;
+	color:#fff;
+}
+.con2{
+	width:400px;
+	height:380px;
+	overflow:hideen;
+	background:#0086B3;
+	float:left;
+	display:none;
+}
+.son{
+	background:#0086B3;
+	display:block;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+#top{
+    height:90px;
+    width:100%;
+    .topCon{
+        height:90px;
+        width:990px;
+        margin:0 auto;
+        .topCon-l{
+            width:430px;
+            height:79px;
+            padding-top:11px;
+            a{
+                float: left;
+            }
+            span{
+                color:#000000;
+                font-size:28px;
+                float:left;
+                border-left:1px solid #ccc;
+                margin-left: 10px;
+                margin-top:5px;
+                
+            }
+        }
+    }
+}
+#con{
+    height:630px;
+    width:100%;
+    .conCon{
+        height:630px;
+        width:990px;
+        margin:0 auto;
+        background: url(../images/15470064286211.jpg) no-repeat;
+        background-position: 660px 110px;
+        .conCon-t{
+            height:42px;
+            width:990px;
+            h3{
+                float: left;
+                width:196px;
+                height:40px;
+                border:1px solid #ccc;
+                font-size:18px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .hh{
+                border-top:1px solid red;
+            }
+            p{
+                float:right;
+                font-size:12px;
+                color:#ccc;
+                a{
+                    color:red;
+                }
+            }
+        }
+        .conCon-b{
+            height:590px;
+            width:990px;
+            border:1px solid #ccc;
+            form{
+                
+                div{
+                    margin-top:20px;
+                    span{
+                        color:#ccc;
+                        font-size:12px;
+                        float:left;
+                        height:38px;
+                        width:100px;
+                        text-align: right;
+                        line-height: 38px;
+                        margin-right:20px;
+                    }
+                    input{
+                        height:28px;
+                    }
+                    a{
+                        background: #ccc;
+                        color:#000;
+                    }
+                }
+                button{
+                    width:250px;
+                    height:35px;
+                    background: red;
+                    text-align: center;
+                    line-height: 35px;
+                    margin-top:10px;
+                }
+            }
+            
+        }
+    }
+}
